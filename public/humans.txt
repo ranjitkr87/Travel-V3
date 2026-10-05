@@ -1,0 +1,18 @@
+/* TEAM */
+Atelier Director & Route Curator: Raghavan Menon
+Lead Fleet Mechanic & Dispatcher: Biju Varghese
+Heritage & Cultural Historian: Siobhan Nair
+Digital Craft & Editorial Design: Malabar Journeys Studio
+Location: Calvathy Road, Near Old Customs Jetty, Fort Kochi, Kerala 682001, India
+Contact: voyages [at] malabarjourneys.com
+
+/* THANKS */
+The boatwrights of Alappuzha, tea estate caretakers of Munnar, coir weavers of Mararikulam, and our native chauffeur guild across Kerala.
+
+/* SITE */
+Last update: 2026/10/05
+Language: English (en-IN)
+Doctype: HTML5
+Standards: W3C WCAG 2.1 AA, Schema.org JSON-LD, OpenGraph, Semantic HTML5
+Components: React 19, TypeScript, Tailwind CSS, Vite
+Design System: Rooted Coastal Editorial (EB Garamond & DM Sans)

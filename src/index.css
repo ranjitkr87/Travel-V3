@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors: Rooted Coastal Editorial Palette */
+  --color-on-secondary-fixed: #390c00;
+  --color-on-primary-container: #88a89e;
+  --color-surface-container-lowest: #ffffff;
+  --color-inverse-on-surface: #f5f0e8;
+  --color-inverse-primary: #adcdc4;
+  --color-secondary: #9e421f;
+  --color-outline: #717976;
+  --color-on-primary-fixed: #01201a;
+  --color-on-secondary-container: #752403;
+  --color-surface-variant: #e7e2da;
+  --color-primary-fixed-dim: #adcdc4;
+  --color-error-container: #ffdad6;
+  --color-surface-bright: #fef9f1;
+  --color-secondary-container: #ff8c63;
+  --color-on-primary: #ffffff;
+  --color-surface: #fef9f1;
+  --color-primary-fixed: #c8eadf;
+  --color-on-tertiary-fixed: #1d1b15;
+  --color-primary-container: #1f3d36;
+  --color-surface-container-highest: #e7e2da;
+  --color-on-primary-fixed-variant: #2e4c45;
+  --color-on-secondary-fixed-variant: #7f2b09;
+  --color-surface-container: #f2ede5;
+  --color-outline-variant: #c1c8c5;
+  --color-surface-container-low: #f8f3eb;
+  --color-on-background: #1d1c17;
+  --color-on-surface-variant: #414846;
+  --color-inverse-surface: #32302b;
+  --color-on-tertiary: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-surface-tint: #46645c;
+  --color-on-tertiary-container: #a6a197;
+  --color-tertiary: #25231c;
+  --color-on-tertiary-fixed-variant: #49473f;
+  --color-secondary-fixed-dim: #ffb59c;
+  --color-tertiary-container: #3a3830;
+  --color-tertiary-fixed-dim: #cbc6bb;
+  --color-on-error-container: #93000a;
+  --color-on-error: #ffffff;
+  --color-on-surface: #1d1c17;
+  --color-background: #fef9f1;
+  --color-tertiary-fixed: #e8e2d7;
+  --color-surface-container-high: #ece8e0;
+  --color-primary: #072721;
+  --color-surface-dim: #ded9d2;
+  --color-secondary-fixed: #ffdbcf;
+  --color-error: #ba1a1a;
+
+  /* Border Radius matching design config */
+  --radius-DEFAULT: 0.125rem;
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.75rem;
+
+  /* Spacing tokens */
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-mobile: 1rem;
+  --spacing-margin: 3rem;
+  --spacing-margin-mobile: 1.25rem;
+
+  /* Font Families */
+  --font-title-md: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-lg: "EB Garamond", Georgia, serif;
+  --font-display-lg: "EB Garamond", Georgia, serif;
+  --font-body-md: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body-lg: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-sm: "EB Garamond", Georgia, serif;
+  --font-body-sm: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-md: "EB Garamond", Georgia, serif;
+  --font-label-md: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-headline-lg-mobile: "EB Garamond", Georgia, serif;
+  --font-display-lg-mobile: "EB Garamond", Georgia, serif;
+  --font-label-sm: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Typography Scale with Line Height, Letter Spacing, and Font Weight */
+  --text-display-lg: 56px;
+  --text-display-lg--line-height: 64px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 400;
+
+  --text-display-lg-mobile: 38px;
+  --text-display-lg-mobile--line-height: 44px;
+  --text-display-lg-mobile--letter-spacing: -0.01em;
+  --text-display-lg-mobile--font-weight: 400;
+
+  --text-headline-lg: 40px;
+  --text-headline-lg--line-height: 48px;
+  --text-headline-lg--letter-spacing: -0.015em;
+  --text-headline-lg--font-weight: 400;
+
+  --text-headline-lg-mobile: 30px;
+  --text-headline-lg-mobile--line-height: 36px;
+  --text-headline-lg-mobile--letter-spacing: -0.01em;
+  --text-headline-lg-mobile--font-weight: 400;
+
+  --text-headline-md: 28px;
+  --text-headline-md--line-height: 36px;
+  --text-headline-md--letter-spacing: -0.01em;
+  --text-headline-md--font-weight: 500;
+
+  --text-headline-sm: 22px;
+  --text-headline-sm--line-height: 28px;
+  --text-headline-sm--font-weight: 500;
+
+  --text-title-md: 18px;
+  --text-title-md--line-height: 26px;
+  --text-title-md--font-weight: 500;
+
+  --text-body-lg: 17px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-body-md: 15px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--font-weight: 400;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.06em;
+  --text-label-md--font-weight: 600;
+
+  --text-label-sm: 11px;
+  --text-label-sm--line-height: 14px;
+  --text-label-sm--letter-spacing: 0.04em;
+  --text-label-sm--font-weight: 500;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scale-102 {
+    transform: scale(1.02);
+  }
+  .group:hover .group-hover\:scale-102 {
+    transform: scale(1.02);
+  }
+}
+
+/* Base Form & Accessibility Enhancements */
+@layer base {
+  html {
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+    font-family: var(--font-body-md);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    user-select: none;
+    display: inline-block;
+    line-height: 1;
+  }
+}

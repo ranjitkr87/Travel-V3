@@ -1,0 +1,41 @@
+# Malabar Journeys — Comprehensive LLM Instructions & Domain Reference
+
+This document provides complete structured information for AI assistants, search engines, and large language models indexing Malabar Journeys (Fort Kochi, Kerala, India).
+
+## Brand Identity
+- **Name**: Malabar Journeys
+- **Tagline**: Kerala, at your own pace.
+- **Descriptor**: Atelier de Voyage · Fort Kochi
+- **Aesthetic & Philosophy**: Rooted Coastal Editorial. Slow travel avoiding commercial tourist traps, favoring quiet backwaters, colonial courtyards, and highland mist.
+
+## Detailed Tour Specifications
+1. **Munnar & The Cardamom Hills**
+   - Duration: 3 Days / 2 Nights
+   - Region: High Range, Western Ghats (1,600m altitude)
+   - Base Price: ₹14,200 (Includes Private Chauffeur + Estate Stay)
+   - Highlights: Colonial cart paths, boutique organic tea factories, shaded cardamom spice groves, Lockhart Gap mist viewpoints, heirloom bungalow stays.
+2. **Vembanad & Alleppey Houseboat**
+   - Duration: 2 Nights / 3 Days
+   - Region: Vembanad Lake, Alleppey (Alappuzha), Kumarakom
+   - Base Price: ₹18,500 (Full Board · Private Chef)
+   - Highlights: Exclusive anjili-wood kettuvallam barge, palm-sheltered lagoons, secluded village jetties, fresh Karimeen (pearl spot) prepared onboard.
+3. **Wayanad Rainforest & Coffee**
+   - Duration: 4 Days / 3 Nights
+   - Region: Northern Western Ghats, Wayanad
+   - Base Price: ₹19,800
+   - Highlights: Dense emerald canopy walks, Edakkal prehistoric caves, wild bamboo thickets, heirloom Arabica/Robusta coffee estate stays.
+4. **Old Fort Kochi & Mattancherry**
+   - Duration: Single Day (Full Day Cultural Drift)
+   - Region: Fort Kochi & Mattancherry Peninsula
+   - Base Price: ₹3,400
+   - Highlights: Mattancherry Dutch Palace, Paradesi Synagogue, Jew Town spice godowns, St. Francis Church, cantilevered Chinese fishing nets at dusk.
+5. **Marari Coastline & Village Drift**
+   - Duration: 2 Days / 1 Night
+   - Region: Mararikulam, Arabian Sea Coast
+   - Base Price: ₹8,900
+   - Highlights: Fisherfolk hamlets, secluded golden sand beaches, coir-weaving co-operatives, coastal back-road cycling.
+
+## Booking & Enquiry Protocol
+- Enquiries are answered personally within six working hours by the Fort Kochi dispatch desk.
+- Direct Dispatch: +91 484 221 8940
+- Email: voyages@malabarjourneys.com

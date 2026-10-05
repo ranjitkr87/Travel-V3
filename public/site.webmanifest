@@ -1,0 +1,18 @@
+{
+  "name": "Malabar Journeys — Kerala, at your own pace",
+  "short_name": "Malabar Journeys",
+  "description": "Independent journeys across backwaters, spice hills, and coastal roads of Kerala, with private chauffeurs or self-drive rentals from Fort Kochi.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fef9f1",
+  "theme_color": "#072721",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

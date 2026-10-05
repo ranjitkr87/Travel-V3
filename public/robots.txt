@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Crawl-delay for courteous crawling
+Crawl-delay: 2
+
+# Disallow non-public endpoints
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# AI & LLM Crawler Allowances
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://ais-pre-q7iyype3dzlcip7vu42b65-264323641319.asia-southeast1.run.app/sitemap.xml

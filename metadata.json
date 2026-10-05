@@ -1,0 +1,6 @@
+{
+  "name": "Malabar Journeys — Kerala Slow Travel & Private Fleet",
+  "description": "Independent journeys across backwaters, spice hills, and coastal roads of Kerala, with private chauffeurs or self-drive rentals from Fort Kochi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
